@@ -12,7 +12,7 @@
       </div>
     </div>
     <div>
-      <div class="box" style="margin-top: 1rem;">
+      <div class="box" style="margin-top: 1rem; border-radius: 20px;">
 
         <!--START BOX HEADER -->
         <div class="head" style="font-size: 2.5em; color: #FFCC00; font-weight: bold;">
