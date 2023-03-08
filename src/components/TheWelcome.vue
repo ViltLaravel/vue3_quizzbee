@@ -15,7 +15,7 @@
       <div class="box" style="margin-top: 1rem;">
 
         <!--START BOX HEADER -->
-        <div class="head" style="font-size: 2.5em; color: #FFCC00;">
+        <div class="head" style="font-size: 2.5em; color: #FFCC00; font-weight: bold;">
           <span style="width: 80%;">Name</span>
           <span style="width: 20%; padding-left: 2rem;">Points</span>
         </div>
