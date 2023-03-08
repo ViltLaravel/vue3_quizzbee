@@ -23,7 +23,7 @@
 
         <div v-for="participant in participants" :key="participant.id" class="score">
           <!-- START OF NAME PARTICIPANTS -->
-            <div class="name">
+            <div class="name" style="font-size: 2em;">
               <span>{{ participant.name }}</span>
                 <div class="progress" style="width: 100%;">
                   <div class="progress-bar bg-warning" role="progressbar" v-bind:style="{width: participant.score + '%'}" aria-valuenow="10" aria-valuemin="100" aria-valuemax="100"></div>
@@ -32,7 +32,7 @@
           <!-- END OF NAME PARTICIPANTS -->
 
           <!-- START OF PARTICIPANTS POINTS -->
-            <div class="point">
+            <div class="point" style="font-size: 2em;">
               <span class="postName" style="color: #FFCC00; visibility: hidden;">&nbsp;</span>
               <span>{{ participant.score }}</span>
             </div>
