@@ -153,6 +153,7 @@ export default {
       align-items: center;
       flex-direction: column;
       width: 20%;
+      font-size: 3em;
      }
      
   </style>
