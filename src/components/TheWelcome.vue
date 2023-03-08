@@ -135,6 +135,7 @@ export default {
       width: 50%;
       color: #fff;
       font-size: 2em;
+      padding-bottom: 1rem;
       
      
       
@@ -153,7 +154,7 @@ export default {
       align-items: center;
       flex-direction: column;
       width: 20%;
-      font-size: 2.5em;
+      font-size: 2em;
      }
      
   </style>
