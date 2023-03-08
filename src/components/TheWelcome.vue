@@ -21,7 +21,7 @@
         </div>
         <!-- END BOX HEADER -->
 
-        <div style="margin-bottom: 0px;" v-for="participant in participants" :key="participant.id" class="score">
+        <div v-for="participant in participants" :key="participant.id" class="score">
           <!-- START OF NAME PARTICIPANTS -->
             <div class="name">
               <span>{{ participant.name }}</span>
