@@ -134,7 +134,7 @@ export default {
       align-items: center;
       width: 50%;
       color: #fff;
-      font-size: 2em;
+      font-size: 3.5em;
       
      
       
@@ -153,7 +153,6 @@ export default {
       align-items: center;
       flex-direction: column;
       width: 20%;
-      font-size: 2em;
      }
      
   </style>
