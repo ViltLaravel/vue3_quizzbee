@@ -12,10 +12,10 @@
       </div>
     </div>
     <div>
-      <div class="box" style="margin-top: 1rem;">
+      <div class="box" style="margin-top: 1rem; border-radius: 20px;">
 
         <!--START BOX HEADER -->
-        <div class="head" style="font-size: 1.3em; color: #FFCC00;">
+        <div class="head" style="font-size: 2em; color: #FFCC00;">
           <span style="width: 80%;">Name</span>
           <span style="width: 20%; padding-left: 2rem;">Points</span>
         </div>
