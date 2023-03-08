@@ -134,6 +134,7 @@ export default {
       align-items: center;
       width: 50%;
       color: #fff;
+      font-size: 2em;
       
      
       
