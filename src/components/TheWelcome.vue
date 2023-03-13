@@ -33,7 +33,7 @@
 
           <!-- START OF PARTICIPANTS POINTS -->
             <div class="point" style="font-size: 2em;">
-              <span class="postName" style="color: #FFCC00; visibility: hidden;">&nbsp;</span>
+              <span class="postName" style="color: #FFCC00; visibility: hidden;">&nbsp;</span>      
               <span>{{ participant.score }}</span>
             </div>
           <!-- END OF POINTS -->
@@ -76,7 +76,7 @@ export default {
   },
   methods: {
     fetchData() {
-      axios.get('https://quizzbee.bisubilar.org/api/participant')
+      axios.get('https://quizzbee1.bisubilar.org/api/participant')
         .then(response => {
           this.participants = response.data;
         })
