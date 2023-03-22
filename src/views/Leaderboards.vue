@@ -76,7 +76,7 @@
     },
     methods: {
       fetchData() {
-        axios.get('https://quizzbee.bisubilar.org/api/participant')
+        axios.get('https://quizzbee1.bisubilar.org/api/participant')
           .then(response => {
             this.participants = response.data;
           })
